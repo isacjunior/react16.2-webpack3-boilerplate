@@ -4,8 +4,6 @@ Dipeex - React Boilerplate
 ### Start Project
 
 ```
-clone project
-cd dipeex-react-boilerplate
 yarn or npm start
 ```
 
