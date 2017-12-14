@@ -18,7 +18,7 @@ module.exports = {
     alias: {
       container: path.resolve(__dirname, './src/container')
     },
-    modules: [path.resolve(__dirname, 'node_modules')],
+    modules: [ 'node_modules' ],
     extensions: ['.jsx', '.js']
   },
 
