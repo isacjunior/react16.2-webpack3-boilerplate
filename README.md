@@ -5,12 +5,20 @@ Dipeex - React Boilerplate
 
 ```
 yarn or npm start
+Open: http://localhost:8080
 ```
 
 ### Build
 
 ```
 yarn or npm run build
+```
+
+### Storybook
+
+```
+yarn or npm run Storybook
+Open: http://localhost:9001
 ```
 
 ### Configurations
@@ -23,5 +31,5 @@ Babel Core : 7.0.0-beta.34
 Preset Env : 7.0.0-beta.34
 Preset React : 7.0.0-beta.34
 Eslint : 4.13.1
+Storybook: 3.2.17
 ```
-
