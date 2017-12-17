@@ -17,7 +17,7 @@ yarn or npm run build
 ### Storybook
 
 ```
-yarn or npm run Storybook
+yarn or npm run storybook
 Open: http://localhost:9001
 ```
 
