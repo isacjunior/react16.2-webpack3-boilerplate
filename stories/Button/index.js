@@ -1,9 +1,12 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { Button } from '@storybook/react/demo'
+import { Button } from 'components'
 
 storiesOf('Button', module)
-  .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
-  .add('with some emoji', () => <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>)
+  .add('Primary', () => (
+    <Button primary onClick={action('clicked')}>Primary</Button>
+  ))
+  .add('Normal', () => (
+    <Button onClick={action('clicked')}>Normal</Button>
+  ))

@@ -1,10 +1,11 @@
 import React, { PureComponent, Fragment } from 'react'
+import { Button } from 'components'
 
 class App extends PureComponent {
   render () {
     return (
       <Fragment>
-        <h1>React Dipeex Boilerplate + Fiber + Fragment + Webpack 3</h1>
+        <Button primary>React 16.2 Boilerplate</Button>
       </Fragment>
     )
   }

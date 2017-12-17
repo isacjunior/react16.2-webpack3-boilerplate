@@ -10,13 +10,19 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.34",
     "@babel/preset-env": "^7.0.0-beta.34",
     "@babel/preset-react": "^7.0.0-beta.34",
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-info": "^3.2.17",
+    "@storybook/addon-links": "^3.2.17",
+    "@storybook/react": "^3.2.17",
     "babel-loader": "8.0.0-beta.0",
     "clean-webpack-plugin": "^0.1.17",
     "eslint": "^4.13.1",
@@ -30,9 +36,6 @@
     "uglifyjs-webpack-plugin": "^1.1.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7",
-    "webpack-merge": "^4.1.1",
-    "@storybook/react": "^3.2.17",
-    "@storybook/addon-actions": "^3.2.17",
-    "@storybook/addon-links": "^3.2.17"
+    "webpack-merge": "^4.1.1"
   }
 }
